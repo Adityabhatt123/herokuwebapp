@@ -5,7 +5,7 @@ const server = http.createServer(app)
 const port = process.env.PORT ||5000;
 const io = require("socket.io")(server, {
 	cors: {
-		origin: "http://localhost:3000",
+		origin: "https://frolicking-pasca-e66304.netlify.app/",
 		methods: [ "GET", "POST" ]
 	}
 })
