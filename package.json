@@ -1,0 +1,22 @@
+{
+  "name": "videochatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "prod": "npm run-script build && serve build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "build": "^0.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "serve": "^14.0.1",
+    "socket.io": "^4.5.2"
+  }
+}
